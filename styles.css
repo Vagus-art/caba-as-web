@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    max-width: 100%;
+}
+.main-header{
+    width:100%;
+    height:100vh;
+    position:relative;
+    background-color:lightgreen;
+}
+.header-top-bar{
+    width:inherit;
+    display:flex;
+    justify-content: space-between;
+}
+.header-title{
+    width:inherit;
+    height:60%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-bottom-navbar{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+.header-bottom-navbar-options{
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding:10px;
+}
