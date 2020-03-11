@@ -57,6 +57,7 @@ body {
 .header-bottom-navbar-options li a {
   color: white;
   text-decoration: none;
+  font-size:1.3em;
 }
 .radialblur {
   position: absolute;
@@ -163,4 +164,70 @@ body {
 
 .right-hr{
   flex-direction: row-reverse;
+}
+
+main{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+}
+
+.whyus{
+  display:grid;
+  justify-content: space-between;
+  row-gap: 40px;
+  grid-template-columns: 60% 30%;
+  padding:30px;
+  width:100%;
+  max-width: 1326px;
+}
+
+.whyus-main{
+  max-width: 100%;
+}
+
+.whyus-main-image{
+  position:relative;
+  display:flex;
+  flex-direction: row-reverse;
+}
+
+.shifted{
+  flex-direction: row;
+}
+
+.background-square{
+  position:absolute;
+  height:70%;
+  width:400px;
+  justify-self: center;
+  align-self: center;
+  background-color:#77A791;
+  z-index:0;
+}
+
+.whyus-main-image img{
+  z-index:1;
+}
+
+.shifted img{
+  height:80%;
+  width:auto;
+  justify-self: center;
+  align-self: center;
+  flex-grow:1;
+  margin-left:5%;
+}
+
+.shifted-p{
+  margin:auto;
+}
+
+.shifted-square{
+  justify-self: unset;
+  align-self: unset;
+  top:0;
+  left:0; 
+  background-color: #4A6658;
 }
