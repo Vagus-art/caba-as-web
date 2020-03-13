@@ -231,3 +231,43 @@ main{
   left:0; 
   background-color: #4A6658;
 }
+
+.activities{
+  padding:30px;
+  width:100%;
+}
+
+.activities-header{
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  align-items:center;
+}
+
+.activities-header hr{
+  width:25%;
+  margin-top:20px;
+  margin-bottom:30px;
+}
+
+.activities-layout{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  width:100%;
+}
+
+.activities-layout-column{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.activity{
+  padding:50px;
+}
+
+.activity *{
+  font-family: 'Merriweather';
+}
